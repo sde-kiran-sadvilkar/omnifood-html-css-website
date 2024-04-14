@@ -1,4 +1,5 @@
 ﻿# Omnifood HTML CSS Website
+###### This project was built as part of learning by following udemy tutorial. 
 ### This is Demo website built for an imaginary food delivery App using HTML and CSS(flexbox and Grid).
 
 #### Preview of the website
