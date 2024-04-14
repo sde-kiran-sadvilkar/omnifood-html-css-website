@@ -10,6 +10,7 @@
     />
     <link rel="stylesheet" href="/style/style.css" />
     <link rel="stylesheet" href="/style/general.css" />
+    <link rel="stylesheet" href="/style/queries.css" />
 
     <script
       type="module"
@@ -19,6 +20,9 @@
       nomodule=""
       src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script defer src="js/script.js"></script>
+
     <title>Omni Foods</title>
   </head>
   <body>
@@ -37,6 +41,13 @@
           </li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
     </header>
 
     <main>
@@ -448,7 +459,7 @@
         </div>
 
         <div class="container grid grid--2-cols margin-bottom-md">
-          <div class="princing-plan princing-plan--starter">
+          <div class="pricing-plan pricing-plan--starter">
             <header class="plan-header">
               <p class="plan-name">Starter</p>
               <p class="plan-price"><span>$</span>399</p>
@@ -476,7 +487,7 @@
             </div>
           </div>
 
-          <div class="princing-plan princing-plan--complete">
+          <div class="pricing-plan pricing-plan--complete">
             <header class="plan-header">
               <p class="plan-name">Complete</p>
               <p class="plan-price"><span>$</span>649</p>
